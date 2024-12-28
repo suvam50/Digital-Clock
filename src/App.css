@@ -1,0 +1,92 @@
+/* #root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+} */
+
+/* div {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  padding: 0px;
+  margin: 0px;
+  padding-top: 40px;
+  min-height: 100vh;
+} */
+* {
+  margin: 0;
+}
+.main-div {
+  display: flex;
+  flex-direction: column; /* Stack children vertically */
+  align-items: center; /* Center elements horizontally */
+  justify-content: center; /* Center elements vertically */
+  height: 100vh; /* Full viewport height */
+  background-color: #121212;
+}
+
+button {
+  width: 150px; /* Fixed button width */
+  height: 50px; /* Fixed button height */
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 20px; /* Space between button and clock */
+  margin-left: 60px;
+  text-align: center; /* Align text in the button */
+  border-radius: 10px;
+  border: none;
+  color: black;
+  background-color: lightcyan;
+}
+
+button:hover {
+  background-color: #61dafb;
+}
+
+.clock-size {
+  display: flex;
+  justify-content: center;
+  font-size: 50px;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+  margin-top: 0; /* No margin to prevent shifting */
+  color: #61dafb;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+  min-width: 250px; /* Ensure the clock has a consistent width */
+}
